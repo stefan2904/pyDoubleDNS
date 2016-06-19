@@ -11,3 +11,7 @@ This script does both for a given list of domains.
 or simple use the default list-path (*list.txt*):
 
 `python find.py`
+
+## Related
+
+* [Use Bing to do 'reverse DNS'](https://github.com/MaYaSeVeN/Reverse-IP-Bing-API)
