@@ -1,10 +1,12 @@
+import sys
 import socket
 from dns import resolver
 from dns import reversename
 
+listfile = 'list.txt' if len(sys.argv) <= 1 else sys.argv[1]
 
 ips = []
-with open('list.txt', 'r') as f:
+with open(listfile, 'r') as f:
     for l in f:
         if l.startswith('#'):
             continue
